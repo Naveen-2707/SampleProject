@@ -39,6 +39,11 @@ public class ListTask {
 			System.out.println(object);
 			
 		}
+		System.out.println("First Three value");
+		for (int i = 0; i < 3; i++) {
+			Integer integer = li.get(i);
+			System.out.println(integer);
+			}
 		
 	}
 
