@@ -39,6 +39,13 @@ public class ListTask {
 			System.out.println(object);
 			
 		}
+		System.out.println("First value only");
+		for (int i = 0; i < 1; i++) {
+			System.out.println(li.get(i));
+		}
+//<<<<<<< HEAD
+//=======
+//>>>>>>> 2098a4908c7a2f561746f553fb2617f4e037b783
 		System.out.println("First Three value");
 		for (int i = 0; i < 3; i++) {
 			Integer integer = li.get(i);
@@ -47,4 +54,5 @@ public class ListTask {
 		
 	}
 
+	}
 }
